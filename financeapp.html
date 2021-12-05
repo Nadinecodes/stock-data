@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="financeapp.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock App</title>
+ 
+</head>
+<body>
+    <h1>Stock Watch</h1>
+    <h2>Get the latest update on stocks and financial news</h2>
+    <form action="">
+        <label for="stock">Enter ticker symbol</label>
+        <input type="text" id="stock" name="stock">
+        <button id="newsBtn">Get Quote</button>
+    </form>
+    <table style="width:100%">
+        <tbody class="tbl">
+        <tr>
+            <th id="price">price</th>
+            <th id="high">high</th>
+            <th id="low">low</th>
+            <th id="change">day change</th>
+            <th id="percha">percent change</th>
+            <th id="volume">volume</th>
+        </tr>
+        <tr>
+            <td id="priceData"></td>
+            <td id= "highData"></td>
+            <td id= "lowData"></td>
+            <td id= "changeData"></td>
+            <td id= "percentData"></td>
+            <td id= "volumeData"></td>
+
+        </tr>
+    </table>
+    <a></a>
+    
+    <script src="financeapp.js"></script>
+</body>
+</html>

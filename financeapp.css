@@ -1,0 +1,42 @@
+body{
+    background-color:black;
+    opacity:90%;
+}
+h1 {
+    color: rgb(191, 209, 161);
+    background-color: rgb(53, 53, 211);
+    text-align: center;
+    font-size:60px;
+    font-family:fantasy;
+    margin:0;
+    padding:0;
+    text-shadow: 2px 1px black;
+    border:0px;
+
+
+    
+}
+#newsBtn {
+    color:rgb(47, 14, 233);
+    
+}
+form{
+    color:rgba(182, 60, 133, 0.849);
+    font-weight: bold;
+    
+}
+
+img{
+    position:relative;
+    top:10px;
+    border: 5px solid rgb(231, 15, 15);
+}
+h2{
+    color:rgb(250, 250, 245);
+}
+table,th,td{
+    border:1px solid rgb(245, 239, 239);
+}
+td{
+    color:white;
+}
