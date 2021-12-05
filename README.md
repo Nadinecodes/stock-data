@@ -1,1 +1,2 @@
-# stock-data
+# stock-data 
+This project allows users to enter a stock's ticker symbol and get a few data back such as the current price, high and low of the day, percent change and volume. It also provides a link to the current news regarding the stock that was entered. It is useful for anyone who wants a quick snapshot of what's going on with a particular stock by providing basic information that isn't overwhleming for someone who is new to the stock market. The link to news sources provide additional information about news that might be moving the stock. To get started with this project, you'll need basic understanding of HTML, CSS, JaavaScript and API requests. You'll need two API keys for the stock and news data. This project is maintained by Nadine Edwards.
